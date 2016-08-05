@@ -8,6 +8,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-inverse">
+      <!-- Logo -->
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
@@ -15,17 +16,47 @@
           </a>
           <a class="navbar-brand" href="#">Ian Baum</a>
         </div>
+        <!-- Collapsing links -->
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"></a></li>
+            <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Contact</a></li>
+
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <div class="c"
+
+
 
     <!-- Main Content -->
     <h1> Ian Baum </h1>
 
+    <!-- Contact Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+              <span aroa-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="contactModalLabel">Contact me at:</h4>
+          </div>
+          <div class="modal-body">
+            <p>Email:ian@ianbaum.com
+            <p>Phone:(215)-740-0569</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Scripts -->
-    <script src="js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
   </body>
 </html>
