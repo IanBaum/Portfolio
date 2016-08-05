@@ -24,7 +24,7 @@ _No known bugs._
 
 * _You can contact the creator at:_  
 * _email: ian@ianbaum.com_  
-* _phone: 215-740-0569_
+* _phone: (215)-740-0569_
 
 ## Technologies Used
 
