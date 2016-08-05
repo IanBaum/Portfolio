@@ -14,7 +14,7 @@ developed using HTML CSS and Boostrap. It was made as part of Epicodus curriculu
 * _Clone this repository._
 * _Run the index.html in the web browser of your choice._
 * _Requires internet connection for Jquery to function._
-* _Github Pages link: https://ianbaum.github.io/portfolio_
+* _Github Pages link: https://ianbaum.github.io/Portfolio_
 
 ## Known Bugs
 
