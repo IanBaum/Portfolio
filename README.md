@@ -7,7 +7,7 @@
 ## Description
 
 _This webpage is used to show the skills and past work the of the creator. It was
-developed using HTML CSS and Boostrap. It was made as part of Epicodus curriculum.
+developed using HTML CSS and Boostrap. It was made as part of Epicodus curriculum._
 
 ## Setup/Installation Requirements
 
