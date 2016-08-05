@@ -4,7 +4,22 @@ body{
 
 h2{
   font-size:4em;
+  color: #029ACF;
 }
+
+ol, ul{
+  list-style: none;
+  font-size: 2em;
+}
+.main-text{
+  font-size:1.5em;
+}
+
+.main{
+  background-color: #CCC;
+  margin-top: 10px;
+}
+
 #nav-logo{
   height:auto;
   width:50px;
@@ -15,11 +30,14 @@ h2{
   text-align:center;
   color: #AAAAAA;
 }
+#about-pic{
+  float:left;
+}
 
 #profile{
 
 }
 
-#projects{
+#experience{
   text-align:right;
 }
