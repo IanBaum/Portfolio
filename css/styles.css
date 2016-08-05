@@ -1,21 +1,10 @@
-html {
-background: url(img/mountain.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-
 body{
   color: #606060;
 }
-
 h1, h2{
   font-size:4em;
   color: #029ACF;
 }
-
 ol, ul{
   list-style: none;
   font-size: 1em;
@@ -26,17 +15,14 @@ ol, ul{
 .main-text{
   font-size:1.5em;
 }
-
 .main{
   border-bottom: 2px solid #029ACF;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-
 .right{
   text-align:right;
 }
-
 .carousel-caption{
   font-size: 10em;
   color:rgba(255,255,255,0.7);
@@ -47,7 +33,6 @@ ol, ul{
 .carousel-subtext{
   font-size:0.4em;
 }
-
 #nav-logo{
   height:auto;
   width:50px;
@@ -60,15 +45,9 @@ ol, ul{
 #about-pic{
   float:left;
 }
-
-#profile{
-
-}
-
 #experience h2{
   text-align:right;
 }
-
 #experience img{
   height:auto;
   width:100%;
