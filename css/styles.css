@@ -1,5 +1,25 @@
+body{
+  color: #606060;
+}
+
+h2{
+  font-size:4em;
+}
 #nav-logo{
   height:auto;
   width:50px;
   margin-top:-15px;
+}
+
+#header{
+  text-align:center;
+  color: #AAAAAA;
+}
+
+#profile{
+
+}
+
+#projects{
+  text-align:right;
 }
