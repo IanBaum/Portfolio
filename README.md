@@ -17,7 +17,7 @@ developed using HTML CSS and Boostrap. It was made as part of Epicodus curriculu
 
 ## Known Bugs
 
-_No none bugs._
+_No known bugs._
 
 ## Support and contact details
 

@@ -1,23 +1,51 @@
+html {
+background: url(img/mountain.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
 body{
   color: #606060;
 }
 
-h2{
+h1, h2{
   font-size:4em;
   color: #029ACF;
 }
 
 ol, ul{
   list-style: none;
-  font-size: 2em;
+  font-size: 1em;
+}
+.container{
+  margin-top: 80px;
 }
 .main-text{
   font-size:1.5em;
 }
 
 .main{
-  background-color: #CCC;
-  margin-top: 10px;
+  border-bottom: 2px solid #029ACF;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.right{
+  text-align:right;
+}
+
+.carousel-caption{
+  font-size: 10em;
+  color:rgba(255,255,255,0.7);
+  top:55%;
+  transform: translateY(-50%);
+  line-height: 55%;
+}
+.carousel-subtext{
+  font-size:0.4em;
 }
 
 #nav-logo{
@@ -25,7 +53,6 @@ ol, ul{
   width:50px;
   margin-top:-15px;
 }
-
 #header{
   text-align:center;
   color: #AAAAAA;
@@ -38,6 +65,22 @@ ol, ul{
 
 }
 
-#experience{
+#experience h2{
   text-align:right;
+}
+
+#experience img{
+  height:auto;
+  width:100%;
+}
+@media only screen and (max-width:1010px){
+  .carousel-caption{
+    font-size: 5em;
+  }
+}
+@media only screen and (min-width:1700px){
+  .item img{
+    width:1700px;
+    margin:auto;
+  }
 }

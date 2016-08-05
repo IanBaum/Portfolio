@@ -7,7 +7,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="navbar navbar-inverse nav-bar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -34,59 +34,126 @@
     </div>
 
     <!-- Main Content -->
-    <div class="container">
-      <div class="row">
         <!-- Header -->
-        <div class="col-sm-12">
-          <div id ="header"class="jumbotron">
-            <h1>Hi, I'm Ian Baum</h1>
-            <h3>I make websites</h3>
-          </div>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/mountain.jpg" alt="" class="img-responsive">
+          <div class="carousel-caption">
+           Ian Baum<span class="carousel-subtext"><br/>I write Code</span>
+           </div>
         </div>
       </div>
-
-      <!-- Profile -->
-      <div class="row">
-        <div id="profile" class="col-sm-12 main">
-          <h2>About Me</h2>
-          <div class="row">
-            <div class="col-sm-8">
-          <img id="about-pic" src="img/logo.png" alt="An illustration of a fennec fox made by the website creator.">
-          <p class="main-text">I am a student at Epicodus learning web development
-          and design. I was born and raised in the philadelphia area. </p>
+    </div>
+    <div class="main-container">
+      <div class="container">
+        <!-- Profile -->
+        <div class="row">
+          <div id="profile" class="col-sm-12 main">
+            <h2>About Me</h2>
+            <div class="row">
+              <div class="col-sm-8">
+            <img id="about-pic" src="img/logo.png" alt="An illustration of a fennec fox made by the website creator.">
+            <p class="main-text">I am a student at <strong>Epicodus</strong> learning web development
+              and design. I was born and raised in the philadelphia area. I <em>love coding</em>
+              and enjoy solving complex problems. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Experience -->
-      <div class="row">
-        <div id="experience" class="col-sm-12 main">
-          <h2>I know...</h2>
+        <!-- Experience -->
+        <div class="row">
+          <div id="experience" class="col-sm-12 main">
+            <h2>I know...</h2>
 
-          <div class="row">
-            <div class="col-sm-8 col-sm-push-4">
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-              </ul>
+            <div class="row">
+              <div class="col-xs-2">
+                <img src="img/HTML5.png" alt="html logo">
+              </div>
+              <div class="col-sm-6">
+                <p class="main-text">Stuff about HTML. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-2 col-sm-push-10">
+                <img src="img/css.png" alt="css logo">
+              </div>
+              <div class="col-sm-6 col-sm-push-2">
+                <p class="main-text right">Stuff about CSS. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-2">
+                <img src="img/bootstrap.png" alt="bootstrap logo">
+              </div>
+              <div class="col-sm-6">
+                <p class="main-text">Stuff about Bootstrap. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Projects -->
-      <div class="row">
-        <div class="col-sm-12 main">
-          <div class="row">
-            <div id="projects"class="col-sm-8">
-              <h2>Past Work</h2>
-
+        <!-- Projects -->
+        <div class="row">
+          <div class="col-sm-12 main">
+            <div class="row">
+              <div id="projects"class="col-sm-12">
+                <h2>Past Work</h2>
+                  <div class="row">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Vacation Site
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            <p>A simple website made to practice bootstrap. It uses HTML, CSS, and bootstrap.</p>
+                            <a class="btn btn-primary"href="https://github.com/IanBaum/alaska">Check it out</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Animal Shelter
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            <p>A simple webpage made to practice CSS and responsive design. It uses HTML and CSS.</p>
+                            <a class="btn btn-primary"href="https://github.com/IanBaum/sh">Check it out</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Astronaut Blog
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            <p>A simple webpage made to practice HTML and CSS structuring and stying. It uses HTML and CSS.</p>
+                            <a class="btn btn-primary"href="https://github.com/IanBaum/space">Check it out</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
             </div>
-          </div> <!-- Project row inner end -->
+          </div>
         </div>
-      </div><!-- Project row outer end -->
-    </div> <!-- main container end -->
+      </div> <!-- main container end -->
+    </div>
 
 
     <!-- Contact Modal -->
@@ -102,6 +169,7 @@
           <div class="modal-body">
             <p>Email: ian@ianbaum.com</p>
             <p>Phone: (215)-740-0569</p>
+            <a class="btn btn-primary" href="mailto:ian@ianbaum.com" target="_top">Send Mail</a>
           </div>
           <div class="modal-footer">
             <button class="btn btn-default" data-dismiss="modal">Close</button>
@@ -109,6 +177,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
