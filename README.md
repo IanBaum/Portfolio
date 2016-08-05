@@ -21,9 +21,9 @@ _No none bugs._
 
 ## Support and contact details
 
-_You can contact the creator at:_  return
-_email: ian@ianbaum.com_  return
-_phone: 215-740-0569_
+* _You can contact the creator at:_  
+* _email: ian@ianbaum.com_  
+* _phone: 215-740-0569_
 
 ## Technologies Used
 
